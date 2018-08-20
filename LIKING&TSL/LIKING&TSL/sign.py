@@ -1,7 +1,6 @@
+# coding:utf-8
 import hashlib
-import time
 import operator
-
 
 def LK_sign(timestamp,body):
     h = {
