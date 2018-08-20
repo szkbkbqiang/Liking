@@ -1,0 +1,555 @@
+2018-01-12 16:30:58,068 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2018-01-12 16:30:58,082 INFO o.a.j.JMeter: Loading user properties from: /Users/admin/Desktop/apache-jmeter-3.3/bin/user.properties
+2018-01-12 16:30:58,083 INFO o.a.j.JMeter: Loading system properties from: /Users/admin/Desktop/apache-jmeter-3.3/bin/system.properties
+2018-01-12 16:30:58,089 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-01-12 16:30:58,089 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-01-12 16:30:58,089 INFO o.a.j.JMeter: java.version=1.8.0_144
+2018-01-12 16:30:58,089 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-01-12 16:30:58,089 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-01-12 16:30:58,089 INFO o.a.j.JMeter: os.arch=x86_64
+2018-01-12 16:30:58,089 INFO o.a.j.JMeter: os.version=10.10.5
+2018-01-12 16:30:58,090 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-01-12 16:30:58,090 INFO o.a.j.JMeter: Max memory     =6442450944
+2018-01-12 16:30:58,090 INFO o.a.j.JMeter: Available Processors =4
+2018-01-12 16:30:58,096 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2018-01-12 16:30:58,097 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2018-01-12 16:30:58,097 INFO o.a.j.JMeter: JMeterHome=/Users/admin/Desktop/apache-jmeter-3.3
+2018-01-12 16:30:58,097 INFO o.a.j.JMeter: user.dir  =/Users/admin/Desktop/jmeter脚本/后台脚本
+2018-01-12 16:30:58,097 INFO o.a.j.JMeter: PWD       =/Users/admin/Desktop/jmeter脚本/后台脚本
+2018-01-12 16:30:59,455 INFO o.a.j.JMeter: IP: 192.168.128.227 Name: longxianguangdeMacBook-Pro.local FullName: 192.168.128.227
+2018-01-12 16:31:00,922 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
+2018-01-12 16:31:00,930 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-01-12 16:31:01,904 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-01-12 16:31:01,904 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-01-12 16:31:03,225 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2018-01-12 16:31:04,027 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2018-01-12 16:31:04,080 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2018-01-12 16:31:04,123 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-12 16:31:04,124 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-12 16:31:04,124 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-12 16:31:04,124 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-01-12 16:31:04,124 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-01-12 16:31:04,124 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-01-12 16:31:04,581 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-01-12 16:31:04,582 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/admin/Desktop/apache-jmeter-3.3/bin/proxyserver.jks
+2018-01-12 16:31:04,807 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2018-01-12 16:31:04,860 INFO o.a.j.s.FileServer: Default base='/Users/admin/Desktop/jmeter脚本/后台脚本'
+2018-01-12 16:31:04,950 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2018-01-12 16:31:04,950 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2018-01-12 16:31:05,137 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2018-01-12 16:31:05,195 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2018-01-12 16:31:05,451 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-01-12 16:31:05,451 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-01-12 16:31:05,452 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-01-12 16:31:05,452 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-01-12 16:32:21,362 INFO o.a.j.s.FileServer: Set new base='/Users/admin/Desktop'
+2018-01-12 16:32:21,512 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-01-12 16:32:21,524 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-01-12 16:32:21,526 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-01-12 16:32:30,480 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-01-12 16:32:30,481 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-12 16:32:30,481 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-12 16:32:30,492 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-01-12 16:32:30,698 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-01-12 16:32:30,698 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-01-12 16:32:30,699 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-01-12 16:32:30,699 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-01-12 16:32:30,703 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-01-12 16:32:30,703 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-01-12 16:32:30,709 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-01-12 16:32:30,736 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = longxianguangdeMacBook-Pro.local
+2018-01-12 16:32:30,745 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-01-12 16:32:31,266 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-01-12 16:32:31,270 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-01-12 16:32:31,270 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-01-12 16:32:31,477 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-01-12 16:32:31,478 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-01-12 16:32:31,478 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-01-12 16:32:31,946 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-01-12 16:32:31,946 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-01-12 16:32:31,948 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-01-12 16:32:31,949 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-01-12 16:36:20,654 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-01-12 16:36:20,656 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-12 16:36:20,693 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-01-12 16:36:20,840 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-01-12 16:36:20,840 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-01-12 16:36:20,840 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-01-12 16:36:20,840 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-01-12 16:36:20,841 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-01-12 16:36:20,842 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-01-12 16:36:20,859 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-01-12 16:36:21,703 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-01-12 16:36:21,704 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-01-12 16:36:21,704 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-01-12 16:36:21,705 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-01-12 16:36:46,144 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-01-12 16:36:46,145 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-12 16:36:46,151 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-01-12 16:36:46,289 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-01-12 16:36:46,290 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-01-12 16:36:46,290 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-01-12 16:36:46,291 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-01-12 16:36:46,293 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-01-12 16:36:46,293 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-01-12 16:36:46,297 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-01-12 16:36:46,687 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-01-12 16:36:46,687 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-01-12 16:36:46,688 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-01-12 16:36:46,689 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-01-12 16:37:02,698 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-01-12 16:37:02,698 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-12 16:37:02,703 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-01-12 16:37:02,825 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-01-12 16:37:02,825 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-01-12 16:37:02,825 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-01-12 16:37:02,825 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-01-12 16:37:02,827 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-01-12 16:37:02,828 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-01-12 16:37:02,828 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-01-12 16:37:03,225 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-01-12 16:37:03,225 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-01-12 16:37:03,226 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-01-12 16:37:03,226 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-01-12 16:43:15,444 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-01-12 16:43:15,446 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-12 16:43:15,448 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-01-12 16:43:15,651 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-01-12 16:43:15,652 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-01-12 16:43:15,652 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-01-12 16:43:15,653 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-01-12 16:43:15,654 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-01-12 16:43:15,655 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-01-12 16:43:15,656 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-01-12 16:43:16,094 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-01-12 16:43:16,095 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-01-12 16:43:16,095 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-01-12 16:43:16,096 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-01-12 16:45:13,189 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-01-12 16:45:13,189 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-01-12 16:45:13,192 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-01-12 16:45:13,382 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2018-01-12 16:45:13,382 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
+2018-01-12 16:45:13,383 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-01-12 16:45:13,383 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-01-12 16:45:13,384 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-01-12 16:45:13,384 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-01-12 16:45:13,385 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2018-01-12 16:45:14,185 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
+2018-01-12 16:45:14,186 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2018-01-12 16:45:14,186 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-01-12 16:45:14,187 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-01-12 17:27:30,585 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:32,118 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:32,643 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:32,877 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:33,093 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:33,302 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:33,936 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:35,024 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
+2018-01-12 17:27:35,451 ERROR o.a.j.JMeter: Uncaught exception: 
+java.lang.IllegalArgumentException: Illegal pattern character 'C'
+	at java.text.SimpleDateFormat.compile(SimpleDateFormat.java:826) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.initialize(SimpleDateFormat.java:634) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:605) ~[?:1.8.0_144]
+	at java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:580) ~[?:1.8.0_144]
+	at org.apache.jmeter.functions.TimeFunction.execute(TimeFunction.java:95) ~[ApacheJMeter_functions.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at org.apache.jmeter.functions.gui.FunctionHelper.actionPerformed(FunctionHelper.java:181) ~[ApacheJMeter_core.jar:3.3 r1808647]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022) ~[?:1.8.0_144]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402) ~[?:1.8.0_144]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259) ~[?:1.8.0_144]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252) ~[?:1.8.0_144]
+	at java.awt.Component.processMouseEvent(Component.java:6533) ~[?:1.8.0_144]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324) ~[?:1.8.0_144]
+	at java.awt.Component.processEvent(Component.java:6298) ~[?:1.8.0_144]
+	at java.awt.Container.processEvent(Container.java:2236) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEventImpl(Component.java:4889) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2294) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525) ~[?:1.8.0_144]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466) ~[?:1.8.0_144]
+	at java.awt.Container.dispatchEventImpl(Container.java:2280) ~[?:1.8.0_144]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) ~[?:1.8.0_144]
+	at java.awt.Component.dispatchEvent(Component.java:4711) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_144]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_144]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) ~[?:1.8.0_144]
+	at java.awt.EventQueue$4.run(EventQueue.java:729) ~[?:1.8.0_144]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_144]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) ~[?:1.8.0_144]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_144]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_144]
